@@ -1,0 +1,68 @@
+{
+	"name": "@tenjot/react",
+	"version": "0.1.0",
+	"description": "collection of react utilities",
+	"license": "MIT",
+	"author": "tenjot",
+	"type": "module",
+	"scripts": {
+		"dev": "waku dev",
+		"build": "tsdown",
+		"build:docs": "waku build",
+		"test": "vitest run",
+		"postinstall": "patch-package"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.1.4",
+		"@shikijs/rehype": "^3.9.2",
+		"@tailwindcss/vite": "^4.1.12",
+		"@testing-library/dom": "^10.4.1",
+		"@testing-library/jest-dom": "^6.7.0",
+		"@testing-library/react": "^16.3.0",
+		"@types/react": "^19.1.10",
+		"@types/react-dom": "^19.1.7",
+		"@vitejs/plugin-react-swc": "^4.0.0",
+		"jsdom": "^26.1.0",
+		"patch-package": "^8.0.0",
+		"react": "^19.1.1",
+		"react-dom": "^19.1.1",
+		"react-server-dom-webpack": "^19.1.1",
+		"rehype-class-names": "^2.0.0",
+		"rehype-stringify": "^10.0.1",
+		"remark-parse": "^11.0.0",
+		"remark-rehype": "^11.1.2",
+		"tailwindcss": "^4.1.12",
+		"tsdown": "^0.14.1",
+		"typescript": "^5.9.2",
+		"unified": "^11.0.5",
+		"vite": "^7.1.2",
+		"vitest": "^3.2.4",
+		"waku": "^0.25.0"
+	},
+	"dependencies": {
+		"clsx": "^2.1.1",
+		"dequal": "^2.0.3"
+	},
+	"peerDependencies": {
+		"react": "^19.0.0"
+	},
+	"main": "./dist/utils.js",
+	"types": "./dist/utils.d.ts",
+	"exports": {
+		"./cv": {
+			"types": "./dist/cv.d.ts",
+			"default": "./dist/cv.js"
+		},
+		"./fetch": {
+			"types": "./dist/fetch.d.ts",
+			"default": "./dist/fetch.js"
+		},
+		"./utils": {
+			"types": "./dist/utils.d.ts",
+			"default": "./dist/utils.js"
+		}
+	},
+	"files": [
+		"./dist"
+	]
+}
