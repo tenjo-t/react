@@ -24,4 +24,4 @@ const Server = () => {
 };
 ```
 
-詳しくは[react.dev](https://react.dev/reference/react/Suspense#providing-a-fallback-for-server-errors-and-client-only-content)を参照。
+For more details, see [react.dev](https://react.dev/reference/react/Suspense#providing-a-fallback-for-server-errors-and-client-only-content).

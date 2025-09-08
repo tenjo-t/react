@@ -13,6 +13,7 @@ import type { getConfig as File_UtilsUtil_getConfig } from './pages/utils/[util]
 // prettier-ignore
 type Page =
 | ({ path: '/examples/use-fetch' } & GetConfigResponse<typeof File_ExamplesUseFetch_getConfig>)
+| { path: '/examples/use-position'; render: 'dynamic' }
 | ({ path: '/' } & GetConfigResponse<typeof File_Index_getConfig>)
 | ({ path: '/utils/[util]' } & GetConfigResponse<typeof File_UtilsUtil_getConfig>);
 

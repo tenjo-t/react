@@ -57,6 +57,10 @@
 			"types": "./dist/fetch.d.ts",
 			"default": "./dist/fetch.js"
 		},
+		"./position": {
+			"types": "./dist/position.d.ts",
+			"default": "./dist/position.js"
+		},
 		"./utils": {
 			"types": "./dist/utils.d.ts",
 			"default": "./dist/utils.js"

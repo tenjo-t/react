@@ -8,4 +8,5 @@ Collection of React Utilities
 
 - [cv - class variance util](/utils/cv)
 - [useFetch - a hook for data fetching](/utils/use-fetch)
+- [usePosition](/utils/use-position)
 - [utils](/utils/utils)

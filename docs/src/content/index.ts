@@ -1,1 +1,1 @@
-export const getContents = () => ["cv", "use-fetch", "utils"];
+export const getContents = () => ["cv", "use-fetch", "use-position", "utils"];
